@@ -149,6 +149,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 491458238689584445, guid: 9a7c24f281a2c3d45a9b8befe608bf77,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: -0.0025
+      objectReference: {fileID: 0}
     - target: {fileID: 547757556876011835, guid: 9a7c24f281a2c3d45a9b8befe608bf77,
         type: 3}
       propertyPath: m_IsActive
@@ -234,7 +239,7 @@ PrefabInstance:
         type: 3}
       propertyPath: iconSprite
       value: 
-      objectReference: {fileID: 21300000, guid: b2e9e71f430377e4abbcb83f0b185cca,
+      objectReference: {fileID: 21300004, guid: 20f25674b9512834f88938d45ed495d7,
         type: 3}
     - target: {fileID: 1686379045559848377, guid: 9a7c24f281a2c3d45a9b8befe608bf77,
         type: 3}
@@ -245,7 +250,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: b2e9e71f430377e4abbcb83f0b185cca,
+      objectReference: {fileID: 21300004, guid: 20f25674b9512834f88938d45ed495d7,
         type: 3}
     - target: {fileID: 1890484663533101843, guid: 9a7c24f281a2c3d45a9b8befe608bf77,
         type: 3}
@@ -391,7 +396,7 @@ PrefabInstance:
         type: 3}
       propertyPath: iconSprite
       value: 
-      objectReference: {fileID: 21300000, guid: cd12702cb08cd2b4297752d0feba7837,
+      objectReference: {fileID: 21300004, guid: 20f25674b9512834f88938d45ed495d7,
         type: 3}
     - target: {fileID: 7545364183608891058, guid: 9a7c24f281a2c3d45a9b8befe608bf77,
         type: 3}
@@ -402,7 +407,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: cd12702cb08cd2b4297752d0feba7837,
+      objectReference: {fileID: 21300004, guid: 20f25674b9512834f88938d45ed495d7,
         type: 3}
     - target: {fileID: 7730299935254012266, guid: 9a7c24f281a2c3d45a9b8befe608bf77,
         type: 3}
@@ -1364,6 +1369,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: f9b1acc0404b53f45bffb480fefa205a, type: 3}
       propertyPath: m_Name
       value: Model_Platonic
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f9b1acc0404b53f45bffb480fefa205a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f9b1acc0404b53f45bffb480fefa205a, type: 3}
       propertyPath: m_LocalPosition.x
