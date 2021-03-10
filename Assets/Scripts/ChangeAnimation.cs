@@ -7,7 +7,7 @@ public class ChangeAnimation : MonoBehaviour
 {
     [Header("Properties")]
     public ButtonConfigHelper buttonConfigHelper;
-    public Animator platonicAnimator;
+    public Animator phoneAnimator;
     public int maximumSteps = 10;
 
     private int stepsCounter = 0;
@@ -20,7 +20,7 @@ public class ChangeAnimation : MonoBehaviour
             stepsCounter++;
         }
 
-        platonicAnimator.SetTrigger(animator_trigger_name + " " + stepsCounter.ToString());
+        phoneAnimator.SetTrigger(animator_trigger_name + " " + stepsCounter.ToString());
         buttonConfigHelper.MainLabelText = stepsCounter.ToString() + "/" + maximumSteps.ToString();
         Debug.Log("Pushed");
     }
@@ -31,7 +31,7 @@ public class ChangeAnimation : MonoBehaviour
         {
             stepsCounter--;
         }
-        platonicAnimator.SetTrigger(animator_trigger_name + " " + stepsCounter.ToString());
+        phoneAnimator.SetTrigger(animator_trigger_name + " " + stepsCounter.ToString());
         buttonConfigHelper.MainLabelText = stepsCounter.ToString() + "/" + maximumSteps.ToString();
     }
 }
