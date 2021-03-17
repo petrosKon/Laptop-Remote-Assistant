@@ -141,7 +141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonConfigHelper: {fileID: 588526184}
   phoneAnimator: {fileID: 1441821284}
-  maximumSteps: 10
+  maximumSteps: 8
 --- !u!1001 &223974226
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -320,7 +320,7 @@ PrefabInstance:
     - target: {fileID: 2110343545006650771, guid: 9a7c24f281a2c3d45a9b8befe608bf77,
         type: 3}
       propertyPath: m_text
-      value: 1/10
+      value: 1/8
       objectReference: {fileID: 0}
     - target: {fileID: 2110343545006650771, guid: 9a7c24f281a2c3d45a9b8befe608bf77,
         type: 3}
@@ -1057,6 +1057,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1039836153}
   - component: {fileID: 1039836152}
+  - component: {fileID: 1039836154}
   m_Layer: 0
   m_Name: MixedRealityToolkit
   m_TagString: Untagged
@@ -1091,6 +1092,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1039836154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039836151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2c0128b8bd545e4d857190cbbd05832, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disableSpatialAwareness: 1
 --- !u!1 &1441821283 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cbcb48aa60091ed48843b56da9b0078b,
@@ -2079,7 +2093,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 07ebc80273d64c84b923be3e5f484151, type: 2}
+      objectReference: {fileID: 2100000, guid: 54322026142964d4084eda2478d9b1a2, type: 2}
     - target: {fileID: 8449996119470504636, guid: cbcb48aa60091ed48843b56da9b0078b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]

@@ -8,7 +8,7 @@ public class ChangeAnimation : MonoBehaviour
     [Header("Properties")]
     public ButtonConfigHelper buttonConfigHelper;
     public Animator phoneAnimator;
-    public int maximumSteps = 10;
+    public int maximumSteps = 8;
 
     private int stepsCounter = 0;
     private readonly string animator_trigger_name = "Animation";
